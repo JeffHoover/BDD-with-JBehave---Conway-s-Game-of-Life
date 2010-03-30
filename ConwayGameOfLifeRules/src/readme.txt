@@ -1,0 +1,2 @@
+If you want to have your scenario files have an extension (say .scenario), this blog post shows how:
+http://codingbone.wordpress.com/2009/12/16/building-a-simple-project-using-behavior-driven-development-with-jbehave/

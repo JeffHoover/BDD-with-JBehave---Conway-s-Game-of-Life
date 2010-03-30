@@ -1,0 +1,89 @@
+Scenario:
+Given Rule 1: alive cell with 0 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 1: alive cell with 1 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 2: alive cell with 4 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 2: alive cell with 5 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 2: alive cell with 6 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 2: alive cell with 7 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 2: alive cell with 8 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 3: alive cell with 2 neighbors
+When I calculate the next generation
+Then the cell should be alive
+
+Scenario:
+Given Rule 3: alive cell with 3 neighbors
+When I calculate the next generation
+Then the cell should be alive
+
+Scenario:
+Given Rule 4: dead cell with 0 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 1 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 2 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 3 neighbors
+When I calculate the next generation
+Then the cell should be alive
+
+Scenario:
+Given Rule 4: dead cell with 4 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 5 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 6 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 7 neighbors
+When I calculate the next generation
+Then the cell should be dead
+
+Scenario:
+Given Rule 4: dead cell with 8 neighbors
+When I calculate the next generation
+Then the cell should be dead
