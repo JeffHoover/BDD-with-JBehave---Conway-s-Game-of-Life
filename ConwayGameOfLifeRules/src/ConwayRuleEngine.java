@@ -2,7 +2,7 @@
 public class ConwayRuleEngine {
 
 	public void CalculateTheNextGeneration(Cell aCell) {
-//		aCell.setIsAlive(nextGenerationAliveState(aCell));
+		aCell.setIsAlive(nextGenerationAliveState(aCell));
 	}
 	
 	private boolean nextGenerationAliveState(Cell aCell){ 
